@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/anujin"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Овог: Ариунболд"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нэр: Анужин"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Төрсөн он сар өдөр: 2000.02.29"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: IB17D007"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Хүйс: Эмэгтэй"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регистрийн дугаар: НЙ00222900"/>
+
+    <TextView
+        android:id="@+id/tv8"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="И мэйл хаяг: Anunanami123@gmail.com"/>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Гэрийн хаяг: СХД 18-р хороо 67А байр 24тоот"/>
+
+    <TextView
+        android:id="@+id/tv10"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Танхим/Курс: IB4"/>
+
+    <TextView
+        android:id="@+id/tv11"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тэнхмийн эрхлэгч: Ирэх-Ирээдүй"/>
+
+    <TextView
+        android:id="@+id/tv12"
+        android:paddingLeft="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сургуульд элсэн орсон огноо: 2017.09.01"/>
+
+
+
+</LinearLayout>

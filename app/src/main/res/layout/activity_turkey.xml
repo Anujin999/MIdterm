@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".turkey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Turkey"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/turkey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="President:             Recep Tayyip Erdoğan"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:           82 million (2019) "
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:           Ankara"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="Turkey, country that occupies a unique geographic position, lying partly in Asia and partly in Europe. Throughout its history it has acted as both a barrier and a bridge between the two continents. Turkey is situated at the crossroads of the Balkans, Caucasus, Middle East, and eastern Mediterranean. It is among the larger countries of the region in terms of territory and population, and its land area is greater than that of any European state. Nearly all of the country is in Asia, comprising the oblong peninsula of Asia Minor—also known as Anatolia (Anadolu)—and, in the east, part of a mountainous region sometimes known as the Armenian Highland. The remainder—Turkish Thrace (Trakya)—lies in the extreme southeastern part of Europe, a tiny remnant of an empire that once extended over much of the Balkans. The country has a north-south extent that ranges from about 300 to 400 miles (480 to 640 km), and it stretches about 1,000 miles from west to east. Turkey is bounded on the north by the Black Sea, on the northeast by Georgia and Armenia, on the east by Azerbaijan and Iran, on the southeast by Iraq and Syria, on the southwest and west by the Mediterranean Sea and the Aegean Sea, and on the northwest by Greece and Bulgaria. The capital is Ankara, and its largest city and seaport is Istanbul."
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

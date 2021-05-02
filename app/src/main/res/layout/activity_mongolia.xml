@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mongolia">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Mongolia"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/mongolia" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="President:             H. Battulga"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:           3.25 million (2019) "
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:           Ulaanbaatar"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="Mongolia, historically Outer Mongolia, country located in north-central Asia. It is roughly oval in shape, measuring 1,486 miles (2,392 km) from west to east and, at its maximum, 782 miles (1,259 km) from north to south. Mongolia’s land area is roughly equivalent to that of the countries of western and central Europe, and it lies in a similar latitude range. The national capital, Ulaanbaatar (Mongolian: Ulan Bator) is in the north-central part of the country. The Mongols have a long prehistory and a most remarkable history. The Huns, a people who lived in Central Asia from the 3rd to the 1st century BCE, may have been their ancestors. A united Mongolian state of nomadic tribes was formed in the early 13th century CE by Genghis Khan, and his successors controlled a vast empire that included much of China, Russia, Central Asia, and the Middle East. The Mongol empire eventually collapsed and split up, and from 1691 northern Mongolia was colonized by Qing (Manchu) China. With the collapse of Qing rule in Mongolia in 1911/12, the Bogd Gegeen (or Javzandamba), Mongolia’s religious leader, was proclaimed Bogd Khan, or head of state. He declared Mongolia’s independence, but only autonomy under China’s suzerainty was achieved. "
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

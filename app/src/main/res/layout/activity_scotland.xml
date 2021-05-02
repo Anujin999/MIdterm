@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".scotland">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Scotland"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/scotland" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Minister:               Nicola Ferguson Sturgeon"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:           5.454 million (2019) "
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:           Edinburgh"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="Scotland, most northerly of the four parts of the United Kingdom, occupying about one-third of the island of Great Britain. The name Scotland derives from the Latin Scotia, land of the Scots, a Celtic people from Ireland who settled on the west coast of Great Britain about the 5th century CE. The name Caledonia has often been applied to Scotland, especially in poetry. It is derived from Caledonii, the Roman name of a tribe in the northern part of what is now Scotland. An austere land, subject to extremes of weather, Scotland has proved a difficult home for countless generations of its people, who have nonetheless prized it for its beauty and unique culture. “I am a Scotsman,” the poet and novelist Sir Walter Scott wrote in the 19th century; “therefore I had to fight my way into the world.” Historically one of Europe’s poorest countries, Scotland has contributed much to political and practical theories of progress: forged in the Scottish Enlightenment in the hands of such philosophers as Francis Hutcheson, Adam Smith, and David Hume, who viewed humankind as a product of history and the “pursuit of happiness” as an inalienable right, this progressive ideal contributed substantially to the development of modern democracy."
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

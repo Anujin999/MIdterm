@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    android:padding="20dp"
+    tools:context=".ui.register.slideshow.RegisterFragment">
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Бүртгэлийн хуудас" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_name"
+        android:hint="Овог нэр"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_mobile"
+        android:hint="Утасны дугаар"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_email"
+        android:hint="И-мэйл хаяг"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_bday"
+        android:hint="Төрсөн он сар өдөр"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_school"
+        android:hint="Сургууль"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_dept"
+        android:hint="Анги"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_adress"
+        android:hint="Гэрийн хаяг"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_id"
+        android:hint="Оюутны код"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_password"
+        android:hint="Нууц үг"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Бүртгэл үүсгэх"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
